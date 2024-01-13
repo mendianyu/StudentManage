@@ -1,0 +1,59 @@
+#@layout()
+#define main()
+
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+    <legend>学生管理 ---&gt; 查询学生信息</legend>
+</fieldset>
+<div style="margin-left:20px;">
+
+    <div class="form_box">
+        <form action="/student/search" method="post">
+            <input class="layui-input-block" type="text" name="param" value="#(param)" style="margin-left: 0;"/>
+            <input class="layui-btn" type="submit">
+        </form>
+    </div>
+
+    <div class="layui-form">
+        <table class="layui-table">
+            <colgroup>
+                <col width="150">
+                <col width="150">
+                <col width="200">
+                <col>
+            </colgroup>
+            <thead>
+            <tr>
+                <th style="text-align: center">学号</th>
+                <th style="text-align: center">姓名</th>
+                <th style="text-align: center">班级</th>
+                <th style="text-align: center">年龄</th>
+                <th style="text-align: center">性别</th>
+                <th style="text-align: center">电话</th>
+                <th style="text-align: center">操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            #for(x : students)
+            <tr>
+                <td style="text-align: center">#(x.id)</td>
+                <td style="text-align: center">#(x.name)</td>
+                <td style="text-align: center">#(x.classes)</td>
+                <td style="text-align: center">#(x.age)</td>
+                <td style="text-align: center">#(x.sex)</td>
+                <td style="text-align: center">#(x.tel)</td>
+                <td style="text-align: center">
+                    <div class="layui-table-cell laytable-cell-1-action">
+                        <a class="layui-btn layui-btn-normal layui-btn-xs" href="/student/edit/#(x.id)"><i
+                                class="layui-icon layui-icon-edit"></i>编辑</a>
+                        <a class="layui-btn layui-btn-warm layui-btn-xs" href="/student/delete/#(x.id)"><i
+                                class="layui-icon layui-icon-delete"></i>删除</a>
+                    </div>
+                </td>
+            </tr>
+            #end
+            </tbody>
+        </table>
+    </div>
+
+</div>
+#end

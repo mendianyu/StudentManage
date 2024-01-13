@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b059b97-b6f4-414d-ab46-089434241bbc" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Environments/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2Z9Jv9tDsEAPLvTda2kp02HEucN" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver&#10;mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.data.extractors.current.export.id" value="SQL 插入" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/static/login/images" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.19558823" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/login/images" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/men/student" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/men/common/model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.men.index" />
+      <recent name="com.men.common" />
+      <recent name="com.men.common.model.base" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AppConfig1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.men.common.AppConfig1" />
+      <module name="StudentManage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.men.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.AppConfig1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="2b059b97-b6f4-414d-ab46-089434241bbc" name="变更" comment="" />
+      <created>1701828590201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701828590201</updated>
+      <workItem from="1701828592295" duration="235000" />
+      <workItem from="1701828834776" duration="7663000" />
+      <workItem from="1701864250356" duration="4211000" />
+      <workItem from="1702036382119" duration="189000" />
+      <workItem from="1702036993950" duration="55000" />
+      <workItem from="1702037074305" duration="407000" />
+      <workItem from="1702037511956" duration="778000" />
+      <workItem from="1702038666586" duration="3408000" />
+      <workItem from="1702302301266" duration="597000" />
+      <workItem from="1702338971670" duration="30000" />
+      <workItem from="1702434523527" duration="135000" />
+      <workItem from="1702438444112" duration="624000" />
+      <workItem from="1702630658112" duration="1185000" />
+      <workItem from="1702798580056" duration="48000" />
+      <workItem from="1703146353444" duration="647000" />
+      <workItem from="1703147094322" duration="144000" />
+      <workItem from="1703150091480" duration="1180000" />
+      <workItem from="1703218637972" duration="944000" />
+      <workItem from="1703421273874" duration="700000" />
+      <workItem from="1703471138628" duration="430000" />
+      <workItem from="1705137102557" duration="364000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

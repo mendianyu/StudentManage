@@ -1,0 +1,71 @@
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;" xmlns="http://www.w3.org/1999/html">
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">学号</label>
+        <div class="layui-input-block">
+            <input type="text" name="student.id" value="#(student.id??)" lay-verify="title" autocomplete="off"
+                   placeholder="请输入学号" class="layui-input" required>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">姓名</label>
+        <div class="layui-input-block">
+            <input type="text" name="student.name" value="#(student.name??)" lay-verify="title" autocomplete="off"
+                   placeholder="请输入姓名" class="layui-input" required>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">班级</label>
+        <div class="layui-input-block">
+            <input type="text" name="student.classes" value="#(student.classes??)" lay-verify="title"
+                   autocomplete="off" placeholder="请输入班级" class="layui-input" required>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">学生性别</label>
+        <div class="layui-input-block">
+            <input type="radio" name="student.sex" value="男" title="男"
+                   #if( student.sex??== '男' )
+            checked=""
+            #end >
+            <div class="layui-unselect layui-form-radio layui-form-radioed"><i class="layui-anim layui-icon"></i>
+                <div>男</div>
+            </div>
+            <input type="radio" name="student.sex" value="女" title="女"
+                   #if( student.sex??== '女' )
+            checked=""
+            #end >
+            <div class="layui-unselect layui-form-radio"><i class="layui-anim layui-icon"></i>
+                <div>女</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">年龄</label>
+        <div class="layui-input-block">
+            <input type="text" name="student.age" value="#(student.age??)" lay-verify="title"
+                   autocomplete="off" placeholder="请输入年龄" class="layui-input" required>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">电话</label>
+        <div class="layui-input-block">
+            <input type="text" name="student.tel" value="#(student.tel??)" lay-verify="title"
+                   autocomplete="off" placeholder="请输入电话" class="layui-input" required>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button type="submit" class="layui-btn" lay-submit="" lay-filter="demo1">提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+
+</fieldset>
